@@ -786,7 +786,7 @@ CREATE TABLE `foods` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `price` int(11) NOT NULL,
+  `price` decimal(9,3) NOT NULL,
   `stars` int(11) NOT NULL,
   `people` int(11) NOT NULL,
   `selected_people` int(11) NOT NULL,
